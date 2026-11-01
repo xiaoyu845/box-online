@@ -20,7 +20,7 @@ import re
 import struct
 from typing import Any, Dict, List, Optional, Tuple
 
-PLUGIN_CHANNEL = ""  # 服务端插件通道名，接入真实服务端时填写
+PLUGIN_CHANNEL = ""  # 服务端插件通道名：进服不受影响，领奖前需按服务端填写
 DISC_SYNC = 21
 DISC_CLAIM = 22
 
