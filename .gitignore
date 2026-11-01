@@ -1,5 +1,5 @@
-# ---- 运行时数据：绝不入库（含真实账号与密码）----
-aw-online-data/
+# ---- 运行时数据：绝不入库（含账号与密码）----
+box-online-data/
 data/
 accounts.json
 settings.json
@@ -28,7 +28,7 @@ mf_bot/_cfg_*.json
 *.tail-bug-*
 *.tmp
 
-# ---- 逆向分析与临时工作目录（不含运行时必需代码）----
+# ---- 本地分析用的临时工作目录（不随仓库发布）----
 _re_online/
 tmp_*/
 _tmp_*/

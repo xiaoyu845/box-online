@@ -199,7 +199,7 @@ box-online/
 
 - [Codexus.OpenSDK](https://github.com/denetease/Codexus.OpenSDK) —— SDK 层实现
 - [OpenSDK.NEL](https://github.com/denetease/OpenSDK.NEL) —— 基于前者的第三方启动器
-- [Fantnel](https://github.com/NirvanaTec/fantnel) —— 涅槃科技的脱盒开源项目
+- [Fantnel](https://github.com/NirvanaTec/fantnel) —— 第三方进服实现
 
 感谢作者与维护者。它们各自遵循自己的开源许可，使用前请自行阅读。
 
