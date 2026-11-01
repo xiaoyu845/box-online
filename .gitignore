@@ -1,0 +1,40 @@
+# ---- 运行时数据：绝不入库（含真实账号与密码）----
+aw-online-data/
+data/
+accounts.json
+settings.json
+4399_gate.json
+*.log
+
+# ---- 构建产物 ----
+build/
+dist/
+__pycache__/
+*.py[cod]
+*.spec.bak
+
+# ---- Node 依赖：体积大，用 npm install 还原 ----
+mf_bot/node_modules/
+mf_bot/_cfg_*.json
+
+# ---- 备份 / 临时文件 ----
+*.bak
+*.bak2
+*-bak
+*.shrink-guard-*
+*.broken-*
+*.pre-restore-*
+*.prerepair-*
+*.tail-bug-*
+*.tmp
+
+# ---- 逆向分析与临时工作目录（不含运行时必需代码）----
+_re_online/
+tmp_*/
+_tmp_*/
+_tools/
+
+# ---- 不发布的开发资料 ----
+tests/
+*.spec
+warn-*.txt
